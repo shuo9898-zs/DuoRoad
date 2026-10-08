@@ -8,7 +8,9 @@ Python-side data collection and SUMO traffic co-simulation for a dual-user drive
 
 Included: six scenario implementations, steering/pedal control, driving UI, camera and vehicle logging, gaze integration, segmentation collection, weather utilities, and matching SUMO networks/routes.
 
-Excluded: participant recordings, biosignals, demos, packaged simulator binaries, Unreal project sources/assets, and third-party eye-tracking SDKs. The custom VR-worker/work-zone environment is required separately. Stock CARLA alone does not reproduce the complete experiment.
+Excluded from this release: participant recordings, biosignals, demos, packaged simulator binaries, Unreal project sources/assets, and third-party eye-tracking SDKs. The custom VR-worker/work-zone environment is required separately. Stock CARLA alone does not reproduce the complete experiment.
+
+The Unreal/VR project and custom assets are planned for a later source release. Once available, users will need to build the custom simulator from source; this repository does not provide a ready-to-run Unreal build. Engine/CARLA versions, plugins, asset permissions, and build steps must be documented from the actual project before that workflow can be supported.
 
 ## Structure
 
